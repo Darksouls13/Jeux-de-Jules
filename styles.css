@@ -1,0 +1,26 @@
+#myCanvas {
+    border: 10px solid rgb(139, 139, 139);
+    background-color: rgb(190, 189, 189);
+    
+  }
+
+  h2 {
+    border: 5px solid rgb(139, 139, 139);
+    background-color: #fff01f;
+  }
+  body {
+    background-image: url("https://addons-media.operacdn.com/media/CACHE/images/themes/85/165185/1.0-rev1/images/e618462c-a680-4a99-b647-309d639db341/ad9a780e848dba9a97a92a26d3cac86d.jpg");
+    align-items: center;
+    display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  }
+  #controls {
+    float:right;
+    border: 5px solid rgb(139, 139, 139);
+    background-color: #fff01f;
+  }
+  h3 {
+    border: 5px solid rgb(139, 139, 139);
+    background-color: #fff01f;
+  }
