@@ -1,0 +1,58 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>The attack of covid-19</title>
+  <link rel="stylesheet" href="./css/styles.css">
+  <script src="./js/script.js"></script>
+</head>
+<body>
+    <h2>The attack of Covid-19 </h2>
+    <h3>Covid-19 has invaded the world for several years now. 
+      Scientists have recently discovered a bacterium capable of destroying the virus but they are not sure if it is safe for humans.
+      <br> 
+      You play as this bacterium and your goal is to destroy the COVID-19 virus without destroying human cells. 
+      <br>
+      Do your duty! 
+      <br>
+      And don't miss the chance to save humanity!</h3>
+      <br>
+    <canvas id="myCanvas"  width="1000" height="1000"></canvas>
+<br>
+  <div id="controls">
+    <label for="nbBalls">Number of balls: </label>
+    <input type="number" min=1 max=30 
+           value=10 id="nbBalls"
+           oninput="changeNbBalls(this.value);">
+    <!--<p></p>
+   <label for="colorChooser">Player color: </label>
+    <input type="color" value='#FF0000'
+           oninput="changePlayerColor(this.value);" id="colorChooser"> -->
+    
+    <p></p>
+      <label for="selectColorOfBallToEat">Choose the color of the virus you have to eat: </label>
+      <select onchange="changeColorToEat(this.value);" id="selectColorOfBallToEat">
+        <option value='red'>red</option>
+        <option value='blue'>blue</option>
+        <option value='green'>green</option>
+    </select>
+    <p></p>
+
+   <label for="ballSpeed">Change ball speed: </label>
+    - <input type="range" value='1'
+             min=0.1 max=3 step=0.1
+           oninput="changeBallSpeed(this.value);"
+             id="ballSpeed"> + 
+    <p></p>
+    
+    <label for="changePlayerColor">Choose the color of your bacteria : </label>
+    <select onchange="changePlayerColor(this.value);" id="changePlayerColor">
+      <option value='red'>red</option>
+      <option value='green'>green</option>
+      <option value='grey'>grey</option>
+
+
+
+  </div>
+</body>
+</html>
